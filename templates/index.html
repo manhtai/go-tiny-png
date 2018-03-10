@@ -1,0 +1,24 @@
+{{template "before_content"}}
+
+<div class="row">
+     <div class="col">
+          <div class="card">
+               <div class="card-header">
+                    Welcome to GoTinyPNG!
+               </div>
+               <div class="card-body">
+
+                    <form method="POST" action="/" enctype="multipart/form-data">
+                         <div class="form-group">
+                              <label for="pngFile">Upload a PNG file to compress</label>
+                              <input type="file" class="form-control-file" name="file" id="pngFile" />
+                         </div>
+                         <button type="submit" class="btn btn-primary">Upload</button>
+                    </form>
+
+               </div>
+          </div>
+     </div>
+</div>
+
+{{template "after_content"}}
