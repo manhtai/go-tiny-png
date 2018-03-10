@@ -6,7 +6,12 @@ A simple web service to compress PNG. Use [gopngquant][0].
 
 ## Try it:
 
-[Go TinyPNG][1]
+```sh
+docker build -t tinypng .
+docker run -d -p 3000:3000 --name tinypng tinypng:latest
+```
+
+Visit http://localhost:3000 to compress your PNG images.
 
 
 ## Compare to the "shiny" one:
@@ -17,5 +22,4 @@ A simple web service to compress PNG. Use [gopngquant][0].
 
 
 [0]: https://github.com/manhtai/gopngquant
-[1]: https://gotinypng.herokuapp.com
 [2]: https://tinypng.com/
