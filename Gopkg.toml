@@ -23,3 +23,9 @@
 [[constraint]]
   branch = "master"
   name = "github.com/manhtai/gopngquant"
+
+[metadata.heroku]
+  root-package = "github.com/manhtai/gotinypng"
+  go-version = "go1.10"
+  install = ["."]
+  ensure = "true"
